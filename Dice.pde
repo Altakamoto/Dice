@@ -5,6 +5,7 @@ void setup()
 }
 void draw()
 {
+  clear();
   int total = 0;
   int ones = 0;
   int twos = 0;
