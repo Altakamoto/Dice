@@ -5,7 +5,6 @@ void setup()
 }
 void draw()
 {
-  background(25);
   int total = 0;
   int ones = 0;
   int twos = 0;
