@@ -84,32 +84,32 @@ class Die //models one single dice cube
     square(myX, myY, 50);
     fill(0);
     if(one == true) {
-      circle(myX + 25, myY + 25, 5);
+      ellipse(myX + 25, myY + 25, 5, 5);
     }else if(two == true) {
-      circle(myX + 16.6, myY + 25, 5);
-      circle(myX + 33.2, myY + 25, 5);
+      ellipse(myX + 16.6, myY + 25, 5, 5);
+      ellipse(myX + 33.2, myY + 25, 5, 5);
     }else if(three == true) {
-      circle(myX + 25, myY + 16.6, 5);
-      circle(myX + 16.6, myY + 33.2, 5);
-      circle(myX + 33.2, myY + 33.2, 5);
+      ellipse(myX + 25, myY + 16.6, 5, 5);
+      ellipse(myX + 16.6, myY + 33.2, 5, 5);
+      ellipse(myX + 33.2, myY + 33.2, 5, 5);
     }else if(four == true) {
-      circle(myX + 16.6, myY + 16.6, 5);
-      circle(myX + 33.2, myY + 16.6, 5);
-      circle(myX + 16.6, myY + 33.2, 5);
-      circle(myX + 33.2, myY + 33.2, 5);
+      ellipse(myX + 16.6, myY + 16.6, 5, 5);
+      ellipse(myX + 33.2, myY + 16.6, 5, 5);
+      ellipse(myX + 16.6, myY + 33.2, 5, 5);
+      ellipse(myX + 33.2, myY + 33.2, 5, 5);
     }else if(five == true) {
-      circle(myX + 25, myY + 25, 5);
-      circle(myX + 16.6, myY + 16.6, 5);
-      circle(myX + 33.2, myY + 16.6, 5);
-      circle(myX + 16.6, myY + 33.2, 5);
-      circle(myX + 33.2, myY + 33.2, 5);
+      ellipse(myX + 25, myY + 25, 5, 5);
+      ellipse(myX + 16.6, myY + 16.6, 5, 5);
+      ellipse(myX + 33.2, myY + 16.6, 5, 5);
+      ellipse(myX + 16.6, myY + 33.2, 5, 5);
+      ellipse(myX + 33.2, myY + 33.2, 5, 5);
     }else {
-      circle(myX + 25, myY + 16.6, 5);
-      circle(myX + 25, myY + 33.2, 5);
-      circle(myX + 16.6, myY + 16.6, 5);
-      circle(myX + 33.2, myY + 16.6, 5);
-      circle(myX + 16.6, myY + 33.2, 5);
-      circle(myX + 33.2, myY + 33.2, 5);
+      ellipse(myX + 25, myY + 16.6, 5, 5);
+      ellipse(myX + 25, myY + 33.2, 5, 5);
+      ellipse(myX + 16.6, myY + 16.6, 5, 5);
+      ellipse(myX + 33.2, myY + 16.6, 5, 5);
+      ellipse(myX + 16.6, myY + 33.2, 5, 5);
+      ellipse(myX + 33.2, myY + 33.2, 5, 5);
     }
   }
 }
